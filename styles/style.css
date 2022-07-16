@@ -6,3 +6,151 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    max-width: 1350px;
+}
+
+header > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+nav {
+    width: 500px;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start ;
+  }
+
+  nav li {
+      font-size: 1.5rem;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .spotify-logo {
+    width: 250px;
+    margin-right: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .section1{
+    background-image: url(https://github.com/ironhack-web-1/w2d3-lab-css-spotify-clone-albertsanle/blob/master/images/landing.jpg?raw=true);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#FFF;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  h1 {
+    font-size: 5rem;
+  }
+
+  .section1 > p {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 2rem;
+  }
+
+  h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 2.5rem;
+    border-bottom: 5px solid #00B172;
+  }
+
+
+  .whats-on-spotify {
+    display: flex;
+    justify-content: center;
+  }
+
+ 
+
+  .info {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+
+  .info div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+  }
+
+  .info h3 {
+    color: #00B172;
+  }
+
+  .info p {
+    font-weight: lighter;
+    text-align: center;
+  }
+
+  .info img {
+    max-height: 6.5rem;
+  }
+
+  .section3 {
+    background-color: #00B172;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 800px;
+  }
+
+  .section3 h2 {
+    border-bottom: 5px solid #FFF;
+ 
+  }
+
+  .section3 h4 {
+    font-weight: lighter;
+    font-size: 1.5em;
+  }
+
+  .section3-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+
+  .section3-info div {
+    margin-left: 50px;
+    margin-bottom: 1.5rem;
+  }
+
+  .section3-info h3 {
+    font-size: 2em;
+  }
+
+  .white-logo {
+    max-height: 8rem;
+  }
+
+  .screenshot-image {
+    max-height: 600px;
+    margin-right: 40px;
+  }
